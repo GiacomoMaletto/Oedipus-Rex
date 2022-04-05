@@ -1,5 +1,16 @@
 local s = {}
 
+s["warning"] = {
+    bg_color = black,
+    text_color = medium_gray,
+    sel_color = white,
+    text_size = 4,
+    option = {}
+}
+s["warning"].text = "Warning.\
+Suicide and rape are discussed in this game."
+s["warning"].option[1] = {text = "I understand.", next_scene = "start"}
+
 s["start"] = {
     bg_color = black,
     text_color = medium_gray,
@@ -1785,9 +1796,9 @@ s["third6"] = {
 }
 s["third6"].text = "Oedipus: Things have changed.\
 I've realized that I've spent so long\
-obsessed with my prophecy and my destiny,\
+obsessed with my destiny,\
 that's all I really lived for.\
-I tried to avoid it at all costs,\
+I tried to change it at all costs,\
 but it was useless."
 s["third6"].option[1] = {text = "...", next_scene = "third7"}
 
@@ -1830,7 +1841,7 @@ s["third9"] = {
     option = {}
 }
 s["third9"].text = "And in any case, I think\
-I finally embraced it."
+I finally know who I am."
 s["third9"].option[1] = {text = "...", next_scene = "third10"}
 
 
@@ -1841,7 +1852,7 @@ s["third10"] = {
     text_size = 3,
     option = {}
 }
-s["third10"].text = "The Sphynx: Embraced what?"
+s["third10"].text = "The Sphynx: And what's that?"
 s["third10"].option[1] = {text = "...", next_scene = "third11"}
 
 
@@ -1852,7 +1863,7 @@ s["third11"] = {
     text_size = 3,
     option = {}
 }
-s["third11"].text = "That I'm one bitchass motherfucker."
+s["third11"].text = "I'm one bitchass motherfucker."
 s["third11"].option[1] = {text = ".", next_scene = "credits"}
 s["third11"].option[1].fn = function()
     cicada_sound:stop()

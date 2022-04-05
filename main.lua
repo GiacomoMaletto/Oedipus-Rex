@@ -10,7 +10,7 @@ fire_sound:setLooping(true)
 cicada_sound:setLooping(true)
 local scene = require "scene"
 local var = require "var"
-local current_scene = "start"
+local current_scene = "warning"
 
 local is_option_sel = {}
 local sw, sh = love.graphics.getDimensions() -- 800, 600
@@ -31,6 +31,11 @@ font[2] = love.graphics.newFont("Junicode.ttf", 25)
 font[3] = love.graphics.newFont("Junicode.ttf", 30)
 font[4] = love.graphics.newFont("Junicode.ttf", 35)
 font[5] = love.graphics.newFont("Junicode.ttf", 70)
+font[1]:setLineHeight(2.2)
+font[2]:setLineHeight(2.2)
+font[3]:setLineHeight(2.2)
+font[4]:setLineHeight(2.2)
+font[5]:setLineHeight(2.2)
 
 local click_sound = love.audio.newSource("click.wav", "static")
 
