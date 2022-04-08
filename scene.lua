@@ -1052,7 +1052,7 @@ s["sphynx"] = {
 }
 s["sphynx"].text = "What you hope doesn't seem to ever matter,\
 as things happen to you either way.\
-Amids a dead landspace, huge canyons casts deep shadows\
+Amid a dead landspace, huge canyons casts deep shadows\
 against the Sun, and it's here that over a turn\
 you're face to face with the legendary creature."
 s["sphynx"].option[1] = {text = "...", next_scene = "sphynx2"}
@@ -1068,7 +1068,7 @@ s["sphynx2"] = {
 s["sphynx2"].text = "She seems to almost say something, just to stop\
 immediately before the words come out.\
 She studies your face, and you study hers.\
-There's something distinctly otherwordly\
+There's something distinctly otherworldly\
 about her appearance, and also her voice\
 is a surprise to you, as it is soft and light."
 s["sphynx2"].option[1] = {text = "...", next_scene = "sphynx3"}
@@ -1730,7 +1730,7 @@ s["third1.5"] = {
     option = {}
 }
 s["third1.5"].text = "You're disappointed and tired\
-of this lives of your, and again\
+of these lives of your, and again\
 your vision begins to crumble."
 s["third1.5"].option[1] = {text = "...", next_scene = "third2"}
 
@@ -1782,7 +1782,7 @@ s["third5"] = {
     option = {}
 }
 s["third5"].text = "You meet again the Sphynx.\
-She stands besides you, asks you\
+She stands beside you, asks you\
 if you've thought about her riddle."
 s["third5"].option[1] = {text = "...", next_scene = "third6"}
 
